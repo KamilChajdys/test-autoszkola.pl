@@ -1,0 +1,72 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-2">
+<link rel="stylesheet" href="style/formularz_emial.css" type="text/css" media="screen">
+</head>
+<body>
+
+
+
+
+<div class="container">
+   <div class="row body">
+    <form action="php/skrypt_email.php" method="post">
+      <ul>
+        
+        <li>
+          <p class="left">
+            <label for="first_name">first name</label>
+            <input type="text" name="first_name" placeholder="John" />
+          </p>
+          <p class="pull-right">
+            <label for="last_name">last name</label>
+            <input type="text" name="last_name" placeholder="Smith" />      
+          </p>
+        </li>
+        
+        <li>
+          <p>
+            <label for="email">email <span class="req">*</span></label>
+            <input type="email" name="mail" placeholder="email@gmail.com" />
+          </p>
+        </li>        
+        <li><div class="divider"></div></li>
+        <li>
+          <label for="comments">comments</label>
+          <textarea cols="20" rows="3" name="tresc"></textarea>
+        </li>
+        
+        <li>
+          <input class="btn btn-submit" type="submit" value="Wyślij" />
+          <small>or press <strong>enter</strong></small>
+        </li>
+        
+      </ul>
+    </form>  
+  </div>
+</div>
+
+
+
+<!-- 
+<form action="php/skrypt_email.php" method="post"> 
+<b>Twój e-mail</b><br/>
+<div id="pole_formularza">
+<input size="30" type="text" name="mail" value="" class="pole_tekstowe" />
+</div>
+<b>Temat</b><br/>
+<div id="pole_formularza">
+<input size="30" type="text" name="temat" value="" class="pole_tekstowe" />
+</div>
+<b>Treść</b><br/>
+<div id="pole_formularza">
+<textarea size="30" name="tresc" cols="40" rows="7" class="pole_tekstowe_tresc"></textarea>
+</div>
+<div id="pole_formularza">
+<input type="submit" value="Wyślij" class="button"/>
+</div>
+</form>
+ -->
+ 
+</body>
+</html>

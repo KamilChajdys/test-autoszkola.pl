@@ -1,0 +1,153 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+
+@font-face {
+	font-family: 'entypo';
+	font-style: normal;
+	font-weight: normal;
+	src: url('http://weloveiconfonts.com/api/fonts/entypo/entypo.eot');
+	src:
+		url('http://weloveiconfonts.com/api/fonts/entypo/entypo.eot?#iefix')
+		format('eot'),
+		url('http://weloveiconfonts.com/api/fonts/entypo/entypo.woff')
+		format('woff'),
+		url('http://weloveiconfonts.com/api/fonts/entypo/entypo.ttf')
+		format('truetype'),
+		url('http://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo')
+		format('svg');
+}
+
+.entypo-down-open:before {
+	content: "\e75c";
+}
+
+.entypo-down-open-mini:before {
+	content: "\e760";
+}
+
+.entypo-down-open-big:before {
+	content: "\e764";
+}
+
+.wazne {
+	font-family: Muli, sans-serif;
+}
+
+.wazne h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 0;
+	letter-spacing: 3px;
+	color: #919191;
+	font-weight: normal;
+	padding-left: 40px;
+	line-height: 60px;
+	text-shadow: 1px 1px 2px #fff;
+	position: relative;
+	flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+}
+
+.wazne h2:before {
+	content: '';
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	left: -19px;
+	top: 12px;
+	background-color: #34363A;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.wazne h3 {
+	font-size: 17px;
+	margin: 0;
+	line-height: 40px;
+	color: #FFF;
+	cursor: pointer;
+	position: relative;
+}
+
+main {
+	flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+}
+
+.wazne a:hover {
+	color: #33526B;
+	transition: all .5s;
+}
+
+.wazne {
+	max-width: 960px;
+	margin: 30px auto;
+	padding: 0 30px;
+}
+
+.wazne div {
+	/*background-color: #F7F7F7;*/
+	border: 1px solid #E2E2E2;
+	box-shadow: 4px 4px 10px #A59797;
+	padding: 0 20px;
+	margin: 15px 0;
+	background: #a9db80; /* Old browsers */
+	background: -moz-linear-gradient(top, #a9db80 0%, #96c56f 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a9db80),
+		color-stop(100%, #96c56f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #a9db80 0%, #96c56f 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #a9db80 0%, #96c56f 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #a9db80 0%, #96c56f 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #a9db80 0%, #96c56f 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80',
+		endColorstr='#96c56f', GradientType=0); /* IE6-9 */
+}
+
+.wazne div:hover {
+	background-color: #fafafa;
+}
+
+.wazne div h3 span {
+	font-family: 'entypo';
+	font-size: 19px;
+	position: absolute;
+	right: 0;
+	transition: all .6s;
+}
+
+.wazne div h3 span.close {
+	-webkit-transform: rotate(180deg);
+	transition: all .5s;
+	color: #fff;
+	opacity: 1;
+	text-shadow: 0 0 0;
+	font-weight: bold;
+	line-height: 2;
+}
+
+.wazne div p {
+	display: block;
+	margin-left: 10px;
+	padding: 0 15px;
+	border-left: 3px dashed #27B148;
+	font-size: 14px;
+}
+
+.wazne ul {
+	display: block;
+	margin-left: 10px;
+	padding: 0 35px;
+	border-left: 3px dashed #27B148;
+	font-size: 14px;
+}
+
+.wazne ul {
+	font-size: 14px;
+}
